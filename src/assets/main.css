@@ -1,1 +1,9 @@
 @import './base.css';
+
+html, body {
+  min-height: 100vh;
+}
+
+.font-rationale {
+  font-family: "Rationale", sans-serif;
+}
