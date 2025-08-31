@@ -1,0 +1,226 @@
+[
+  {
+    "author": "Daniel T. Barry",
+    "quote": "Most errors are introduced during requirements specification!"
+  },
+  {
+    "author": "Linus Torvalds",
+    "quote": "Really, I'm not out to destroy Microsoft. That will just be a completely unintentional side effect."
+  },
+  {
+    "author": "Douglas Crockford",
+    "quote": "In JavaScript, there is a beautiful, elegant, highly expressive language that is buried under a steaming pile of good intentions and blunders."
+  },
+  {
+    "author": "Kevlin Henney",
+    "quote": "The act of describing a program in unambiguous detail and the act of programming are one and the same."
+  },
+  {
+    "author": "Kyle Simpson",
+    "quote": "There's nothing more permanent than a temporary hack."
+  },
+  {
+    "author": "Alan Perlis",
+    "quote": "If you have a procedure with 10 parameters, you probably missed some."
+  },
+  {
+    "author": "Ada Lovelace",
+    "quote": "In the case of the Analytical Engine, we have undoubtedly to lay out a certain capital of analytical labour in one particular line, but this is in order that the engine may bring us in a much larger return in another line."
+  },
+  {
+    "author": "Marijn Haverbeke",
+    "quote": "A program is a building of thought. It is costless to build, it is weightless, and it grows easily under our typing hands. But without care, a program’s size and complexity will grow out of control, confusing even the person who created it."
+  },
+  {
+    "author": "James Gleick",
+    "quote": "Computer programs are the most intricate, delicately balanced and finely interwoven of all the products of human industry to date."
+  },
+  {
+    "author": "David Leinweber",
+    "quote": "If you give someone a program, you will frustrate them for a day; if you teach them how to program, you will frustrate them for a lifetime."
+  },
+  {
+    "author": "Edsger W. Dijkstra",
+    "quote": "As long as there were no machines, programming was no problem at all; when we had a few weak computers, programming became a mild problem, and now we have gigantic computers, programming has become an equally gigantic problem."
+  },
+  {
+    "author": "Richard Stallman",
+    "quote": "The free software community rejects the “priesthood of technology”, which keeps the general public in ignorance of how technology works; we encourage students of any age and situation to read the source code and learn as much as they want to know."
+  },
+  {
+    "author": "David Parnas",
+    "quote": "I have found that the reason a lot of people are interested in artificial intelligence is the same reason a lot of people are interested in artificial limbs: they are missing one."
+  },
+  {
+    "author": "Kevlin Henney",
+    "quote": "No code is faster than no code."
+  },
+  {
+    "author": "William Wulf",
+    "quote": "More computing sins are committed in the name of efficiency (without necessarily achieving it) than for any other single reason - including blind stupidity."
+  },
+  {
+    "author": "Eric S. Raymond",
+    "quote": "Every good work of software starts by scratching a developer’s personal itch."
+  },
+  {
+    "author": "Douglas Crockford",
+    "quote": "It turns out that style matters in programming for the same reason that it matters in writing. It makes for better reading."
+  },
+  {
+    "author": "Addy Osmani",
+    "quote": "Really care about the tools you use because they are what make you your best."
+  },
+  {
+    "author": "Albert Einstein",
+    "quote": "Once you stop learning you start dying."
+  },
+  {
+    "author": "Bjarne Stroustrup",
+    "quote": "C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off."
+  },
+  {
+    "author": "Linus Torvalds",
+    "quote": "An infinite number of monkeys typing into GNU Emacs would never make a good program."
+  },
+  {
+    "author": "Gary Kildall",
+    "quote": "It's fun to sit at a terminal and let the code flow. It sounds strange, but it just comes out my brain; once I'm started, I don't have to think about it."
+  },
+  {
+    "author": "Joel Spolsky",
+    "quote": "Good software, like good wine, takes time."
+  },
+  {
+    "author": "Richard Hamming",
+    "quote": "Perhaps the central problem we face in all of computer science is how we are to get to the situation where we build on top of the work of others rather than redoing so much of it in a trivially different way."
+  },
+  {
+    "author": "Donald Knuth",
+    "quote": "We have seen that computer programming is an art, because it applies accumulated knowledge to the world, because it requires skill and ingenuity, and especially because it produces objects of beauty."
+  },
+  {
+    "author": "Toru Iwatani",
+    "quote": "I'm interested in creating images that communicate with people."
+  },
+  {
+    "author": "Elon Musk",
+    "quote": "There certainly will be job disruption. Because what's going to happen is robots will be able to do everything better than us."
+  },
+  {
+    "author": "Grace Hopper",
+    "quote": "One accurate measurement is worth more than a thousand expert opinions."
+  },
+  {
+    "author": "Wayne Ratliff",
+    "quote": "If I had followed my heart instead of advice, dBASE would be much closer to perfection today."
+  },
+  {
+    "author": "Steve Jobs",
+    "quote": "It is hard to think that a $2 billion company with 4,300-plus people couldn't compete with six people in blue jeans."
+  },
+  {
+    "author": "Jeff Sickel",
+    "quote": "Deleted code is debugged code."
+  },
+  {
+    "author": "Fred Brooks",
+    "quote": "To achieve conceptual integrity, a design must proceed from one mind or a small group of agreeing minds."
+  },
+  {
+    "author": "Kevlin Henney",
+    "quote": "The act of describing a program in unambiguous detail and the act of programming are one and the same."
+  },
+  {
+    "author": "Ada Lovelace",
+    "quote": "In the case of the Analytical Engine, we have undoubtedly to lay out a certain capital of analytical labour in one particular line, but this is in order that the engine may bring us in a much larger return in another line."
+  },
+  {
+    "author": "Jef Raskin",
+    "quote": "When we don’t understand a process, we fall into magical thinking about results."
+  },
+  {
+    "author": "Edsger W. Dijkstra",
+    "quote": "The effective exploitation of his powers of abstraction must be regarded as one of the most vital activities of a competent programmer."
+  },
+  {
+    "author": "Martin Fowler",
+    "quote": "There are few things more frustrating or time wasting than debugging. Wouldn't it be a hell of a lot quicker if we just didn't create the bugs in the first place?"
+  },
+  {
+    "author": "Gottfried Wilhelm Leibniz",
+    "quote": "Even in the games of children there are things to interest the greatest mathematician."
+  },
+  {
+    "author": "Poul Anderson",
+    "quote": "I have yet to see any problem, however complicated, which when looked at in the right way, did not become more complicated."
+  },
+  {
+    "author": "Vannevar Bush",
+    "quote": "If scientific reasoning were limited to the logical processes of arithmetic, we should not get very far in our understanding of the physical world. One might as well attempt to grasp the game of poker entirely by the use of the mathematics of probability."
+  },
+  {
+    "author": "Alan Turing",
+    "quote": "Codes are a puzzle. A game, just like any other game."
+  },
+  {
+    "author": "Anonymous",
+    "quote": "In order to understand recursion, one must first understand recursion."
+  },
+  {
+    "author": "Donald Knuth",
+    "quote": "The problem is that coding isn’t fun if all you can do is call things out of a library, if you can’t write the library yourself."
+  },
+  {
+    "author": "Fred Brooks",
+    "quote": "False scheduling to match the patron's desired date is much more common in our discipline than elsewhere in engineering."
+  },
+  {
+    "author": "Fred Brooks",
+    "quote": "Programming increases goes as a power of program size."
+  },
+  {
+    "author": "Ellen Ullman",
+    "quote": "We build our computer systems the way we build our cities: over time, without a plan, on top of ruins."
+  },
+  {
+    "author": "Gary Kildall",
+    "quote": "I think programming is very much a religious experience for a lot of people."
+  },
+  {
+    "author": "Daniel T. Barry",
+    "quote": "Any technological or managerial scheme to force documentation can be subverted by unwilling programmers."
+  },
+  {
+    "author": "John Carmack",
+    "quote": "Sometimes, the elegant implementation is a function. Not a method. Not a class. Not a framework. Just a function."
+  },
+  {
+    "author": "Edward V. Berard",
+    "quote": "Walking on water and developing software from a specification are easy if both are frozen."
+  },
+  {
+    "author": "L. Peter Deutsch",
+    "quote": "Software is a discipline of detail, and that is a deep, horrendous fundamental problem with software."
+  },
+  {
+    "author": "Michael A. Jackson",
+    "quote": "Two things are known about requirements:\n1. They will change!\n2. They will be misunderstood!"
+  },
+  {
+    "author": "Luciano Ramalho",
+    "quote": "Premature abstraction is as bad as premature optimization."
+  },
+  {
+    "author": "Bob Carr",
+    "quote": "Programming can be addictive."
+  },
+  {
+    "author": "Elon Musk",
+    "quote": "AI is a fundamental risk to the existence of human civilization."
+  },
+  {
+    "author": "Andy Hertzfeld",
+    "quote": "Then Apple went public toward the end of 1980. All of a sudden, all these people I was working with were millionaires."
+  }
+]

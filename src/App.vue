@@ -2,7 +2,7 @@
   import SpecialButton from './components/SpecialButton.vue';
   import ToastNotification from './components/ToastNotification.vue';
   import emitter from './eventBus';
-  import axios from 'axios';
+  import quotes from "./assets/quotes.json";
 </script>
 
 <template>
@@ -14,7 +14,7 @@
 
   <main class="flex flex-col gap-12 my-20">
     <div class="w-4/5 lg:w-2/3 mx-auto">
-      <p class="text-2xl md:text-4xl leading-12 md:leading-16 text-center w-full mb-10">
+      <p class="text-2xl md:text-4xl leading-12 md:leading-16 text-center h-80 xl:h-60 w-full mb-10">
         {{ quote }}
       </p>
       <span class="block text-2xl md:text-3xl text-end ms-auto me-4">
@@ -53,15 +53,16 @@ export default {
   name: "App",
   data() {
     return {
-      quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid fugit aut, rem, dolorum reiciendis debitis ipsum eaque maxime, officia totam esse veritatis ducimus. Totam unde laudantium aspernatur obcaecati perspiciatis voluptatibus!",
-      author: "Author",
+      quote: "",
+      author: "",
+      quoteList: quotes
     }
   },
   methods: {
     regenerate() {
-      axios.get("https://programming-quotesapi.vercel.app/api/random")
-        .then((response) => console.log(response))
-        .catch((error) => console.log(error))
+      let randomQuote = this.quoteList[Math.floor(Math.random() * this.quoteList.length)];
+      this.quote = randomQuote.quote;
+      this.author = randomQuote.author;
     },
     async copyQuote() {
       await navigator.clipboard.writeText(this.quote);

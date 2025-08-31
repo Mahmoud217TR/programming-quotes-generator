@@ -11,7 +11,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --fix",
-    "deploy": "vite build && gh-pages -d dist"
+    "deploy": "vite build && gh-pages -d dist -b gh-pages-2"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.0.0",
