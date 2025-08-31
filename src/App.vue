@@ -2,6 +2,7 @@
   import SpecialButton from './components/SpecialButton.vue';
   import ToastNotification from './components/ToastNotification.vue';
   import emitter from './eventBus';
+  import axios from 'axios';
 </script>
 
 <template>
@@ -22,10 +23,10 @@
     </div>
     <div class="flex justify-center items-center">
       <div class="flex gap-8 items-center justify-around">
-        <SpecialButton type="button" title="Regenerate">
+        <SpecialButton type="button" title="Regenerate" @click.prevent="regenerate">
           <font-awesome-icon class="text-2xl group-hover:rotate-30 group-active:-rotate-90 transition duration-300" icon="fa-solid fa-dice" />
         </SpecialButton>
-        <SpecialButton type="button" title="Copy" @click.prevent="copyPassword">
+        <SpecialButton type="button" title="Copy" @click.prevent="copyQuote">
           <font-awesome-icon class="text-2xl group-hover:rotate-30 group-active:-rotate-90 transition duration-300" icon="fa-solid fa-copy" />
         </SpecialButton>
       </div>
@@ -57,10 +58,18 @@ export default {
     }
   },
   methods: {
-    async copyPassword() {
+    regenerate() {
+      axios.get("https://programming-quotesapi.vercel.app/api/random")
+        .then((response) => console.log(response))
+        .catch((error) => console.log(error))
+    },
+    async copyQuote() {
       await navigator.clipboard.writeText(this.quote);
       emitter.emit("toast", "Copied to clipboard!");
     }
   },
+  mounted() {
+    this.regenerate();
+  }
 }
 </script>
